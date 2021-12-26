@@ -1,1 +1,1 @@
-# .guess.number.game.github.io
+# guess.number.game.github.io

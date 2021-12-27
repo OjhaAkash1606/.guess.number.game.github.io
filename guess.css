@@ -94,7 +94,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 400px) {
   #again {
     border-radius: 2px;
     padding: 2px;
@@ -102,17 +102,19 @@ body {
     font-size: 1em;
   }
   #between {
-    margin: -1.2rem 1rem 0 0;
+    margin: -1.5rem 1rem 0 0;
     font-size: 15px;
   }
   #heading {
     font-size: 15px;
-    margin: 3rem 0 0 11.5rem;
+    position: relative;
+    top: 2em;
+    right: 3em;
     word-spacing: 0;
   }
   #hr {
     padding: 0px;
-    margin-top: 3rem;
+    margin-top: 7rem;
   }
   #questionMark {
     margin: -0.8em 0 0 11.5em;
@@ -127,13 +129,13 @@ body {
     font-size: 18px;
   }
   #message {
-    margin: -4em 0 0 6em;
+    margin: -2em 0 0 6em;
   }
-  #score{
-    margin: 1em 0 0 6em;
+  #score {
+    margin: 0.5em 0 0 6em;
   }
-  #highScore{
-    margin: 1em 0 0 6em;
+  #highScore {
+    margin: 0.5em 0 0 6em;
   }
   #guess {
     width: 5em;
@@ -141,7 +143,7 @@ body {
     height: 2.5em;
     font-size: 12px;
     position: relative;
-    top: 12rem;
+    top: 15rem;
     left: 3em;
     border-radius: 2px;
   }
@@ -149,7 +151,7 @@ body {
     padding: 5px;
     font-size: 15px;
     position: relative;
-    top: 8.5em;
+    top: 11.7em;
     left: 6em;
     border-radius: 2px;
   }

@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
 }
-html {
+html{
   width: 100%;
 }
 body {
+  width: 100%;
   background: black;
   overflow: hidden;
 }
+
 #again {
   border-radius: 5px;
   padding: 0.5rem 2rem;
@@ -94,22 +96,22 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   #again {
     border-radius: 2px;
-    padding: 2px;
-    margin: 1.5rem 0 0 2rem;
-    font-size: 1em;
+    padding: 2.5px;
+    margin: 2.5rem 0 0 2.5rem;
+    font-size: 1.1em;
   }
   #between {
     margin: -1.5rem 1rem 0 0;
-    font-size: 15px;
+    font-size: 18px;
   }
   #heading {
     font-size: 15px;
     position: relative;
     top: 2em;
-    right: 3em;
+    right: em;
     word-spacing: 0;
   }
   #hr {

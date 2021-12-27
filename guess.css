@@ -94,40 +94,63 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 769px) {
   #again {
     border-radius: 2px;
-    padding: 0;
-    margin: 0.5rem 0 0 0.5rem;
-    font-size: 0.8em;
+    padding: 2px;
+    margin: 1.5rem 0 0 2rem;
+    font-size: 1em;
   }
   #between {
-    margin: -0.9rem 7rem 0 0;
-    font-size: 10px;
+    margin: -1.2rem 1rem 0 0;
+    font-size: 15px;
   }
   #heading {
-    font-size: 12px;
-    margin: 1.5rem 0 0 10.5rem;
+    font-size: 15px;
+    margin: 3rem 0 0 11.5rem;
     word-spacing: 0;
   }
   #hr {
     padding: 0px;
-    background-color: aliceblue;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   #questionMark {
-    margin: -0.8em 0 0 9em;
-    width: 1.5rem;
+    margin: -0.8em 0 0 11.5em;
+    width: 2rem;
     height: 1.5rem;
     font-size: 1em;
   }
+  #message,
+  #score,
+  #highScore {
+    width: 65%;
+    font-size: 18px;
+  }
+  #message {
+    margin: -4em 0 0 6em;
+  }
+  #score{
+    margin: 1em 0 0 6em;
+  }
+  #highScore{
+    margin: 1em 0 0 6em;
+  }
   #guess {
-    border: 1px solid aliceblue;
-    width: 3em;
-    height: 1.5em;
-    font-size: 10px;
-    margin:1em 0 0 3em;
+    width: 5em;
+    font: bold;
+    height: 2.5em;
+    font-size: 12px;
+    position: relative;
+    top: 12rem;
+    left: 3em;
     border-radius: 2px;
   }
-
+  #check {
+    padding: 5px;
+    font-size: 15px;
+    position: relative;
+    top: 8.5em;
+    left: 6em;
+    border-radius: 2px;
+  }
 }
